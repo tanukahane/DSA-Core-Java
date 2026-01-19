@@ -15,11 +15,7 @@ public class ReverseNumber {
             n =n/10;
 
         }
-        if(original==reverse){
-            System.out.println("Number is a prime number ");
-        }else{
-            System.out.println("number is not a prime number");
-        }
+        System.out.println("reversed number : " + reverse);
 
     }
     
