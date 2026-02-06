@@ -8,10 +8,13 @@ public class fibonacci {
 
         int a=0,b=1;
 
+
           System.out.println("fibonaaci series : ");
-        for(int i=1;i<=n;i++){
-            System.out.print(a);
+          System.out.print(a + " " + b + " ");
+        for(int i=3;i<=n;i++){
+          //  System.out.print(a);
             int c=a+b;
+             System.out.print(c + " ");
             a=b;
             b=c;
 
