@@ -18,8 +18,8 @@ public class LargestSubstring {
                 currentLength++;
             }
 
-            if(currentLength > maxLength){
-                maxLength = currentLength;
+            if(currentLength > maxLength) {
+                maxLength = currentLength; 
             }
         }
         System.out.println("length of longest subsring " + maxLength);

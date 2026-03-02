@@ -12,7 +12,7 @@ public class SecondLargest {
                 largest = arr[i];     //new largest
             }
             else if (arr[i] > secondLargestt && arr[i] != largest)  //!=largest it avoid duplicates
-            secondLargestt = arr[i];
+           secondLargestt = arr[i];
         }
         System.out.print(secondLargestt);   
     }
